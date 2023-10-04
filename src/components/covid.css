@@ -1,0 +1,61 @@
+/*  Basic Styling but it will help you  */
+body{
+    background-color: #1e1e1e;
+    color: white;
+    /* overflow: hidden; */
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    transition: 0s;
+    transform: scale(1.1);
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+
+.card{
+     background-color:#4d70c1;
+     width: 23%;
+     height: 150px;
+     margin: 3.5%;
+     padding: 1%;
+     text-align: center;
+     transition: 0.3s;
+
+}
+
+.card:hover{
+    transform:scale(1.1);
+} 
+
+.card__name{
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+p > span {
+    font-size: 10px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.card__total {
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+
+
+}
+
